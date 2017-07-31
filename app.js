@@ -22,7 +22,7 @@ mongoose.connection.on('error', (err) => {
 
 const app = express();
 
-const port = 3000; // Set to 3000 if local
+const port = 8080; // Set to 3000 if local
 
 // CORS Middleware
 app.use(cors());
